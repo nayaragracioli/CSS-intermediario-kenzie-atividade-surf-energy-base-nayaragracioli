@@ -51,6 +51,8 @@ a {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 16px;
+  position: sticky;
+  bottom: 0;
 }
 
 .bg-config-default-fixed {
@@ -59,3 +61,4 @@ a {
   background-repeat: no-repeat;
   background-position: top;
 }
+
