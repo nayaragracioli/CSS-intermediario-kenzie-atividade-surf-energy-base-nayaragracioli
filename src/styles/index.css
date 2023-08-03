@@ -1,0 +1,40 @@
+h1 {
+  color: var(--color-grey-4);
+}
+
+h3,
+h4 {
+  color: var(--color-grey-1);
+}
+
+.home-header {
+  padding: 200px 0;
+  background-image: url(./../images/bg.jpg);
+}
+
+.home-header-content {
+  max-width: 600px;
+  margin-top: -52px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-3);
+}
+
+.home-header-content p {
+  color: var(--color-grey-3);
+}
+
+.home-header .button {
+  margin-left: auto;
+  margin-right: 80px;
+}
+.participants {
+  padding: 50px 0;
+}
+
+.participants-content {
+  gap: 104px;
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}

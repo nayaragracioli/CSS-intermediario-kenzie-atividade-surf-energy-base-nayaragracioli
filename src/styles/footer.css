@@ -1,0 +1,23 @@
+.footer {
+  background-image: url(./../images/bg-footer.jpg);
+  height: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-3);
+  text-align: center;
+}
+
+.footer-content div {
+  color: var(--color-grey-4);
+}
+
+.footer-content p {
+  color: var(--color-grey-3);
+}
